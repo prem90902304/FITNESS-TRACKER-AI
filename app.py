@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Banner logo
-st.image("FITNESS-TRACKER_logo.png", use_column_width=True)
+st.image("FITNESS-TRACKER_logo.png",width=300, use_column_width=True)
 
 # Toast
 st.toast("Keep working hard 🦾 ⏳")
