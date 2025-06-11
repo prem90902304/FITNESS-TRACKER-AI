@@ -9,7 +9,38 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Banner logo
-st.image("FITNESS-TRACKER_logo.png",width=300, use_column_width=True)
+import streamlit as st
+from PIL import Image
+import base64
+from io import BytesIO
+
+# Function to encode image to base64
+def image_to_base64(img):
+    buf = BytesIO()
+    img.save(buf, format="PNG")
+    byte_im = buf.getvalue()
+    return base64.b64encode(byte_im).decode()
+
+# Load your image
+image = Image.open("FITNESS-TRACKER_logo.png")
+
+# Display the centered image
+st.markdown(
+    f"""
+    <style>
+        .center-img {{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }}
+    </style>
+    <div class="center-img">
+        <img src="data:image/png;base64,{image_to_base64(image)}" width="250">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Toast
 st.toast("Keep working hard 🦾 ⏳")
