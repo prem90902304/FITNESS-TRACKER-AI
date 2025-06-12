@@ -17,7 +17,7 @@ A budget-friendly virtual fitness assistant that predicts calories burned using 
 
 🚀 Live App:
 
-[**Click here to open the web app**](https://fitness-tracker-9090.streamlit.app/)
+[**Click here to open the web app**](https://fitness-tracker-ai-23.streamlit.app/)
 
 ---
 📖 About the Project
