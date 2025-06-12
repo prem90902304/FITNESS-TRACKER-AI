@@ -16,7 +16,7 @@
 
 A budget-friendly virtual fitness assistant that predicts calories burned using user input and machine learning, without requiring wearable devices.
 
-![App Screenshot]([(https://github.com/prem90902304/FITNESS-TRACKER-AI/blob/main/Picture1.png)]) <!-- Optional: Add a screenshot image path -->
+![App Screenshot](Picture1.png) <!-- Optional: Add a screenshot image path -->
 
 
 ---
