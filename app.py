@@ -36,7 +36,7 @@ st.markdown(
         }}
     </style>
     <div class="center-img">
-        <img src="data:image/png;base64,{image_to_base64(image)}" width="150">
+        <img src="data:image/png;base64,{image_to_base64(image)}" width="100">
     </div>
     """,
     unsafe_allow_html=True
@@ -213,4 +213,4 @@ elif r2 >= 0:
 else:
     st.error("Very Bad Model: Worse than a random guess!")
 
-st.write("### Thank You for using fitness tracker !! 🙏")
+st.write("### Thank you for using FITNESS-TRACKER 💪 Stay consistent, stay fit!")
